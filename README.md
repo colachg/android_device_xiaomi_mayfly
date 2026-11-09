@@ -23,3 +23,15 @@ Camera  | 50 MP wide, 13 MP ultrawide, 5 MP telephoto macro, 32 MP front
 
 ## Device picture
 ![Xiaomi Mi 12S](https://cdn.cnbj1.fds.api.mi-img.com/nr-pub/202207012022_19bbddb6b35c3828f8b53f450c1519a3.png "Xiaomi Mi 12S")
+
+## PixelOS
+
+Branch `seventeen` builds the PixelOS product `custom_mayfly` on top of
+[PixelOS-Devices/android_device_xiaomi_sm8450-common](https://github.com/PixelOS-Devices/android_device_xiaomi_sm8450-common).
+Dependencies are listed in `custom.dependencies`. Until these repositories live in the
+`PixelOS-Devices` organization, `roomservice` cannot resolve them: use a local manifest
+instead, see [colachg/pixelos-mayfly](https://github.com/colachg/pixelos-mayfly) (`aws/build-pixelos.sh`).
+
+### Unofficial builds
+
+Release channel: to be announced.
