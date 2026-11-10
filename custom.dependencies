@@ -4,7 +4,6 @@
     "target_path": "device/xiaomi/sm8450-common"
   },
   {
-    "remote": "gitlab",
     "repository": "colachg/proprietary_vendor_xiaomi_mayfly",
     "target_path": "vendor/xiaomi/mayfly"
   }
